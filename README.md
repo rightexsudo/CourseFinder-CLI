@@ -14,11 +14,11 @@
 ## المتطلبات والتثبيت
 تثبيت المكتبات المطلوبة عبر سطر الأوامر:
 
-```bash
-pip install beautifulsoup4 selenium colorama```
+
+pip install beautifulsoup4 selenium colorama
 طريقة الاستخدام
-Bash```
-python CourseFinder-cli.py -t <search_topic> -b <browser_name>```
+
+python CourseFinder-cli.py -t <search_topic> -b <browser_name>
 
 المعاملات (Arguments)
 -t, --topic (مطلوب): موضوع البحث (مثل: python, sql, excel).
@@ -28,15 +28,14 @@ python CourseFinder-cli.py -t <search_topic> -b <browser_name>```
 أمثلة التشغيل
 البحث عن موضوع بايثون باستخدام متصفح كروم:
 
-Bash```
-python CourseFinder-cli.py -t python -b chrome```
+
+python CourseFinder-cli.py -t python -b chrome
 البحث عن موضوع SQL بالمتصفح الافتراضي (Brave):
 
-Bash```
-python CourseFinder-cli.py -t sql```
+python CourseFinder-cli.py -t sql
 البحث عن موضوع Excel باستخدام متصفح Edge:
 
-Bash```
-python CourseFinder-cli.py -t excel -b edge```
+python CourseFinder-cli.py -t excel -b edge
 المخرجات
+
 يتم إنشاء ملف نصي باسم المنصة والموضوع (مثل courses_edraak_python.txt) يحتوي على عناوين الدورات المكتشفة وروابطها.
