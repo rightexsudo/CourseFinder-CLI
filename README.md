@@ -15,10 +15,11 @@
 تثبيت المكتبات المطلوبة عبر سطر الأوامر:
 
 ```bash
-pip install beautifulsoup4 selenium colorama
+pip install beautifulsoup4 selenium colorama```
 طريقة الاستخدام
-Bash
-python CourseFinder-cli.py -t <search_topic> -b <browser_name>
+Bash```
+python CourseFinder-cli.py -t <search_topic> -b <browser_name>```
+
 المعاملات (Arguments)
 -t, --topic (مطلوب): موضوع البحث (مثل: python, sql, excel).
 
