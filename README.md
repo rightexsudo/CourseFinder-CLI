@@ -22,8 +22,10 @@ pip install beautifulsoup4 selenium colorama
 
 
 python CourseFinder-cli.py -t <search_topic> -b <browser_name>
-المعاملات (Arguments)
 
+
+
+المعاملات
 -t, --topic (مطلوب): موضوع البحث (مثل: python, sql, excel).
 
 -b, --browser (اختياري): المتصفح المستهدف. الخيارات المتاحة: brave (افتراضي)، chrome، edge.
