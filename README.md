@@ -14,14 +14,14 @@
 ## المتطلبات والتثبيت
 تثبيت المكتبات المطلوبة عبر سطر الأوامر:
 
-bash```
+```
 pip install beautifulsoup4 selenium colorama```
 
 طريقة الاستخدام
-bash``
+```
 python CourseFinder-cli.py -t <search_topic> -b <browser_name>```
 المعاملات (Arguments)
-bash```
+```
 -t, --topic (مطلوب): موضوع البحث (مثل: python, sql, excel).
 
 -b, --browser (اختياري): المتصفح المستهدف. الخيارات المتاحة: brave (افتراضي)، chrome، edge.```
@@ -29,13 +29,13 @@ bash```
 أمثلة التشغيل
 البحث عن موضوع بايثون باستخدام متصفح كروم:
 
-bash```
+```
 python CourseFinder-cli.py -t python -b chrome```
 البحث عن موضوع SQL بالمتصفح الافتراضي (Brave):
-bash```
+```
 python CourseFinder-cli.py -t sql```
 البحث عن موضوع Excel باستخدام متصفح Edge:
-bash```
+```
 python CourseFinder-cli.py -t excel -b edge```
 المخرجات
 
